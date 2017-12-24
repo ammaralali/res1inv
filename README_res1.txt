@@ -1,5 +1,6 @@
 ABOUT THE SOFTWARE:
-This is a 1D electrical resistivity inversion software. Its input is the apparent resistivity and acquisition’s parameters, and its output is the inverted model. This software uses a novel methods to transform data from apparent resistivity to true resistivity and invert for number of layers (selected automatically), 
+This is a 1D electrical resistivity inversion software. Its input is the apparent resistivity and acquisition’s parameters, and its output is the inverted model.
+This software uses a novel methods to transform data from apparent resistivity to true resistivity and invert for number of layers (selected automatically), 
 true resistivity and thickness of each layer. The method follows the two-steps approach suggested by Simms and Morgan (1992) to systematically resolve the optimum number of layers. 
 The first step is to run a fixed layer thickness inversion. 
 Then, we use the outcome of the first inversion to determine the optimum number of layers as an input parameter for the second step, which is a variable-thickness inversion (layers’ thicknesses and resistivities are inversion parameters) for the final resistivity model. 
